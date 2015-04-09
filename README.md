@@ -29,6 +29,8 @@ Last week we did a ton of work with ActiveRecord to get our databases hooked up 
   * Create Users model that maps to that table
     * Create `user.rb` file in `app/models`
     * In that file, create a User class that inherits from ActiveRecord::Base
+  * Test if you User model and tables are working properly
+    * Go into tux and create at least one user
 + Adding the V and C
   * Challenge the students to create a new `user.erb` view and a route in their controller to display that template
   * Encourage them to follow the patterns they used to create MVC for tweets
@@ -48,7 +50,14 @@ Last week we did a ton of work with ActiveRecord to get our databases hooked up 
     * In migration (in db directory) create `up` and `down` methods.
     * see code snippet 3
     * In terminal: `rake db:migrate` to create the table
-
+  * Now that we've modified the tweets table, our current data is no longer valid
+  * Go into tux and do Tweet.destroy_all to destroy all of the tweets that are currently in the database
+  * Now that we've modified our database we also need to update the info that is being stored in the database
+  * Where do we get that input from our users? FORMS
++ Modifying the Tweets form
+  * Now that we are connecting Tweets to Users via their user id we should probably modify our form to take in user id's instead of user name's
+  * Have students update their forms accordingly
+  * Create a tweet for user 1
 
 ### Conclusion / So What?
 
