@@ -58,8 +58,15 @@ Last week we did a ton of work with ActiveRecord to get our databases hooked up 
   * Now that we are connecting Tweets to Users via their user id we should probably modify our form to take in user id's instead of user name's
   * Have students update their forms accordingly
   * Create a tweet for user 1
+  * Taking in user IDs is not the best way to set up a tweet because users don't always know their ID and if they input the wrong ID our application will error out
+    * A much better solution is to create a list of current users that people can choose from
+    * We can pull a list of users with `User.all` and create a drop down menu with that list
+    * See code snippet 4
 
 ### Conclusion / So What?
+* You guys now have the basic building blocks for setting up databases and applications just like the pros!
 
 
 ### Hints and Hurdles
+* You may need to save the dropdown menu portion of modifying the form for the next class - there is a lot going on in this class
+* Emphasize MVC and the need to and modify each portion of the MVC when making updates to the application
