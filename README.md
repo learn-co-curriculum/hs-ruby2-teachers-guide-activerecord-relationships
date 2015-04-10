@@ -15,7 +15,7 @@ Last week we did a ton of work with ActiveRecord to get our databases hooked up 
 
 ### Lesson Plan
 ***Code snippets can be found [here](https://github.com/flatiron-school-curriculum/hs-week-4-code-snippets/)***
-*** Completed Fwitter project for today can be found [here]()
+*** Completed Fwitter project for today can be found [here](https://github.com/flatiron-school-curriculum/hs-advanced-ruby-sinatra-template/tree/week-4)
 
 + Why separate tables and models: (tweet model, user model, hashtag model)
   * that breaking up the functionality of an app into smaller pieces makes it easier to scale up and debug applications.
