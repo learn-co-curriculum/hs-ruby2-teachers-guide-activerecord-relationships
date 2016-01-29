@@ -72,4 +72,4 @@ Last week we did a ton of work with ActiveRecord to get our databases hooked up 
 * You may need to save the dropdown menu portion of modifying the form for the next class - there is a lot going on in this class
 * Emphasize MVC and the need to and modify each portion of the MVC when making updates to the application
 
-<a href='https://learn.co/lessons/hs-ruby2-teachers-guide-activerecord-relationships' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hs-ruby2-teachers-guide-activerecord-relationships' title='SWABTS'>SWABTS</a> on Learn.co and start learning to code for free.</p>
